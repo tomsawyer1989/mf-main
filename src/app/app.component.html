@@ -1,2 +1,5 @@
 <h4>This is {{ title }} MF</h4>
+<button (click)="updateState()">Guardar en store y redireccionar</button>
+<button (click)="getLoginState()">Traer store de LOGIN</button>
+<p>{{ loginState }}</p>
 <router-outlet></router-outlet>
